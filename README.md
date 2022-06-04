@@ -1,4 +1,34 @@
 # qrcode-chrome-extesion
+
+# start
+
+```bash
+# clone repository
+git clone https://github.com/xiongbs/qrcode-chrome-extesion.git
+
+# install dependency
+pnpm install
+
+# dev
+pnpm dev
+
+#build 
+pnpm build
+
+```
+
+# change adapter
+
+> change the csp.adpter.js to custom your adapter，
+
+# to chrome extension
+
+* chrome://extensions/
+* 打开开发者模式
+* 加载已解压的扩展程序
+* 点击更新，可以工作了
+
+# 以下式svelte 开发流程操作，可以参照[`svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte)
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
